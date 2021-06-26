@@ -30,7 +30,7 @@ public class Different_Browser {
 		System.setProperty("webdriver.gecko.driver", "F:\\Selenium_Jars\\Lib\\geckodriver.exe");
 		 driver=new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		System.out.println("Firefox browser is opened");
 		}
 	
