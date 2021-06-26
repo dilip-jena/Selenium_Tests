@@ -52,7 +52,7 @@ public class Different_Browser {
 		System.setProperty("webdriver.chrome.driver", "F:\\Selenium_Jars\\Lib\\NewDriver\\chromedriver_win32\\chromedriver.exe");
 		driver=new ChromeDriver();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-		driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+		driver.manage().timeouts().pageLoadTimeout(60, TimeUnit.SECONDS);
 		System.out.println("Chrome browser is opened");
 		}
 	
